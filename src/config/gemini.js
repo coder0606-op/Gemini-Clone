@@ -35,7 +35,7 @@ async function run(prompt) {
 
   const result = await chatSession.sendMessage(prompt);
   let rse = result.response.text();
-  console.log(rse);
+ 
   return rse;
 }
 
