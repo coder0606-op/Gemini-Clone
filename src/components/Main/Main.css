@@ -80,6 +80,8 @@
   bottom: 0;
   width: 100%;
   max-width: 800px;
+  padding:0px 20px;
+  margin:auto;
   
 }
 
@@ -186,12 +188,7 @@
 }
 
 @media (max-width: 600px) {
-  .main-bottom{
-   overflow:scroll;
-  }
-  .main-bottom::-webkit-scrollbar{
-    display:none;
-  }
+  
   .main-bottom input {
     flex: none;
     width: 130px;
