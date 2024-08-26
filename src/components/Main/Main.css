@@ -76,7 +76,7 @@
 }
 
 .main-bottom {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100%;
   max-width: 800px;
@@ -187,8 +187,10 @@
 
 @media (max-width: 600px) {
   .main-bottom{
-    position:relative;
-    bottom:0;
+   overflow:scroll;
+  }
+  .main-bottom::-webkit-scrollbar{
+    display:none;
   }
   .main-bottom input {
     flex: none;
