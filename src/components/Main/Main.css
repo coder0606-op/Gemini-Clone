@@ -186,6 +186,9 @@
 }
 
 @media (max-width: 600px) {
+  .main-bottom{
+    position:relative;
+  }
   .main-bottom input {
     flex: none;
     width: 130px;
