@@ -76,7 +76,7 @@
 }
 
 .main-bottom {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   max-width: 800px;
@@ -194,6 +194,7 @@
     width: 15px;
   }
   .search-box {
+   
     padding: 5px;
     font-size: 7px;
   }
